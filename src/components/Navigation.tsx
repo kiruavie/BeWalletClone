@@ -33,7 +33,10 @@ export const Navigation = () => {
               <Nav.Link href="#link" className="ms-5">
                 Contact
               </Nav.Link>
-              <Nav.Link href="#link" className="ms-5">
+              <Nav.Link
+                href="#link"
+                className="border border-3 border-info rounded-pill ps-4 pe-4 ms-5"
+              >
                 Commencer
               </Nav.Link>
             </Nav>
