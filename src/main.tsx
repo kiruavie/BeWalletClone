@@ -3,12 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./styles/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Navbar } from "./components/Navbar";
+import { Home } from "./pages/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
+    element: <Home />,
   },
 ]);
 createRoot(document.getElementById("root")!).render(
